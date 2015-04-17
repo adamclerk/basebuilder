@@ -1,6 +1,6 @@
 # this file describes how to build tsuru static image
 # to run it:
-# 1 - tsuru-admin platform-add static_auth -d https://raw.github.com/adamclerk/basebuilder/master/static_auth/Dockerfile
+# 1 - tsuru-admin platform-add static-auth -d https://raw.github.com/adamclerk/basebuilder/master/static_auth/Dockerfile
 
 from	ubuntu:14.04
 run	apt-get update
