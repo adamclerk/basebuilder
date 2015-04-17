@@ -1,6 +1,6 @@
 # this file describes how to build tsuru go image
 # to run it:
-# 1 - tsuru-admin platform-add go -d https://raw.github.com/adamclerk/basebuilder/master/godep/Dockerfile
+# 1 - tsuru-admin platform-add godep -d https://raw.github.com/adamclerk/basebuilder/master/godep/Dockerfile
 
 from	ubuntu:14.04
 run	apt-get update
